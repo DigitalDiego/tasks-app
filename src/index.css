@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background: #202020;
+}
+.scrollbar-track::-webkit-scrollbar-track {
+  border: none;
+}
+.scrollbar-thumb::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 50px;
+}
